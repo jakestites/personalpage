@@ -38,9 +38,15 @@ html,
 body {
   font-size: 100%; }
 
+html { 
+  background: url("http://wallnen.com/wp-content/uploads/2013/05/Beach-Sunset-02-HD-Wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background: red;
-  background-size: 100%;
   color: #222222;
   padding: 0;
   margin: 0;
