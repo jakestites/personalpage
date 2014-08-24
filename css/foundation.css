@@ -79,7 +79,8 @@ img {
   float: left !important; }
 
 .right {
-  float: right !important; }
+  float: right !important;
+}
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -1239,9 +1240,13 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #333333; 
+  opacity: .7;
+  margin-top: 20px;
+}
   .contain-to-grid .top-bar {
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+  }
 
 .fixed {
   width: 100%;
@@ -1578,7 +1583,7 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: white; }
     .top-bar-section li:not(.has-form) a:not(.button) {
-      padding: 0 15px;
+      padding: 0px 15px 0px;
       line-height: 45px;
       background: #333333; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -1645,7 +1650,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
         color: white;
         background-color: #555555;
-        background: #272727; }
+        background: #0019ff; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
